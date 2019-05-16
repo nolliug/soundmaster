@@ -3,15 +3,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
     <title>SoundMaster</title>
 </head>
 <body>
     <h1>Animaux</h1>
     <div class="five">
         <div class="card" style="width: 18rem;">
-        <img src="./animaux/chat.jpeg" class="card-img-top" alt="Chat">
+        <img src="./animaux/chat.jpeg" class="card-img-top" alt="Chat" id="myBtn">
         <div class="card-body">
         <h5 class="card-title">Chat</h5>
         <p class="card-text">Chat, chat, chat, chat, chat, chat, chat, chat, chat, chat, chat, chat, chat, chat, chat, chat, chat, chat, chat, chat, chat, chat, chat, chat</p>
@@ -46,8 +45,6 @@
         </div>
         </div>      
     </div>
-     <!-- Trigger/Open The Modal -->
-<button id="myBtn">Open Modal</button>
 
 <!-- The Modal -->
 <div id="myModal" class="modal">
@@ -55,7 +52,8 @@
   <!-- Modal content -->
   <div class="modal-content">
     <span class="close">&times;</span>
-    <p>Some text in the Modal..</p>
+    <p>Des chats, des chiens, des lions, des lapins, ds pandas et ... des moches.</p>
+    <button name="Pouet" onclick="audio.play()">Pouêt</button>
   </div>
 
 </div> 
